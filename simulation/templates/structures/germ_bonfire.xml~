@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>House</Category>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>germ</Civ>
+    <GenericName>Bonfire</GenericName>
+    <SpecificName>Fōr</SpecificName>
+    <Tooltip>The joys of a warm bonfire will make your soldiers forget about their wounds.\nQuickly heal nearby units.</Tooltip>
+    <History>"About minor matters the chiefs deliberate, about the more important the whole tribe. [...] They assemble [...] on certain fixed dates. Then the king [...] is heard, more because he has influence to persuade han because he has power to command."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+  </Identity>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
+    <Max>50</Max>
+  </Health>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>1</BatchTimeModifier>
+    <Entities datatype="tokens">
+    </Entities>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/germ/bonfire.xml</Actor>
+  </VisualActor>
+</Entity>

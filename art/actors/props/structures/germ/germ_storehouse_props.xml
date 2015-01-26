@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/germ_storehouse_props.dae</mesh>
+      <textures>
+        <texture file="props/decal_struct_sand_medium.png" name="baseTex"/>
+        <texture file="props/decal_struct_sand_medium_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

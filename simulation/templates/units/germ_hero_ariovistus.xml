@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>60</Radius>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Attack.Ranged.Pierce> <Add>2</Add> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Add>2</Add> </Attack.Melee.Hack>
+      </Modifications>
+      <AuraName>Hero Aura</AuraName>
+      <AuraDescription>+2 attack for all units within his aura.</AuraDescription>
+    </Aura1>
+  </Auras>
+  <Attack>
+    <Melee>
+      <Hack>32.5</Hack>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>260</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Ariovistus</SpecificName>
+    <History>"Before his own sword three legions, three gererals, had fallen. For he practised war, not by the help of treason nor against pregnant women, but in open day and against men who carried arms."\nTacitus, Annales, ca. 116 CE.</History>
+    <Tooltip>Arminius was a Cherusci nobleman raised in Rome. When in 9 A.D. he returned to his fatherland in the army of the Roman general Varus, he took up the cause of his fellow tribesmen fighting against Roman oppression. He successfully lured Varus into an ambush and all but exterminated his three legions and their support troops.</Tooltip>
+    <Icon>units/celt_hero_vercingetorix.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/vercingetorix_horse.xml</Actor>
+  </VisualActor>
+</Entity>

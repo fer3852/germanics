@@ -1,0 +1,16 @@
+{
+	"genericName": "Woden's Fury",
+	"description": "Dedication to Woden makes soldiers even stronger.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "crenelations.png",
+	"researchTime": 40,
+	"tooltip": "Dedication to Woden makes soldiers even stronger.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.15},
+		{"value": "Looter/Resource/Metal", "add": 25},
+	],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

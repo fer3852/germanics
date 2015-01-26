@@ -1,0 +1,20 @@
+{
+	"genericName": "Batavian Cavalry",
+	"specificName": {
+		"germ": "Batawjōz"
+	},
+	"description": "\"A liquor for drinking is made of barley or grain, and fermented into a certain resemblance of wine.\"\nTacitus, De Origine et situ Germanorum, 98 AD.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "Providing your soldiers with a steady supply of beer will make it much more attractive to join the army. On the other hand, drunk soldiers are admittedly usually not very good in battle...\n-25% recruitment costs for all units, but also -10% health.",
+	"modifications": [{"value": "Health/Max", "multiply": 0.9},
+		{"value": "Cost/Resources/food", "multiply": 0.75},
+		{"value": "Cost/Resources/wood", "multiply": 0.75},
+		{"value": "Cost/Resources/stone", "multiply": 0.75},
+		{"value": "Cost/Resources/metal", "multiply": 0.75}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

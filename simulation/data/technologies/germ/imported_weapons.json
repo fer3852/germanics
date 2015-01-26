@@ -1,0 +1,17 @@
+{
+	"genericName": "Imported Weapons",
+	"specificName": {
+		"germ": "Walhiskō Wēpnō"
+	},
+	"description": "The relative lack of swords meant that the skills needed to make these weapons were rare as well. As a result, swords were either of inferior quality, or relatively expensive. Importing Celtic or Roman weapons could solve this problem.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 800},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword.png",
+	"researchTime": 40,
+	"tooltip": "The relative lack of swords meant that the skills needed to make these weapons were rare as well. As a result, swords were either of inferior quality, or relatively expensive. Importing Celtic or Roman weapons could solve this problem.\nAll Melee Infantry +20% Hack and Pierce Attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.2},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.2}],
+	"affects": ["Infantry Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

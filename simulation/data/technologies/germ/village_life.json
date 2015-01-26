@@ -1,0 +1,16 @@
+{
+	"genericName": "City life",
+	"specificName": {
+		"germ": "Samanalibjaną"
+	},
+	"description": "Although quite a step for the far-apart living Germanics, high-density towns do have their advantages.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "Although quite a step for the far-apart living Germanics, high-density towns do have their advantages.\nRemoves the build restriction from houses.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Longhouse"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

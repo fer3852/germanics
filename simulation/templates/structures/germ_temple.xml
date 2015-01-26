@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <PopulationBonus>7</PopulationBonus>
+    <Resources>
+      <stone>0</stone>
+      <wood>300</wood>
+    </Resources>
+  </Cost>  
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>germ</Civ>
+    <GenericName>Woden's Oak</GenericName>
+    <SpecificName>Wōdanas aiks</SpecificName>
+    <History>"The Germans, however, do not [...] confine the gods within walls, or [...] liken them to the form of any human countenance. They consecrate woods and groves [...]."\nTacitus, De Origine et situ Germanorum, 98 CE</History>
+    <Tooltip>Rather than building large temples for their deities, the Germanics were mostly satisfied with praying near sacred groves and trees. This particular tree is dedicated to Woden, the god of war.\nTrain healers and berserkers. Garrison up to 20 units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/germ_champion_infantry_spearman
+    </Entities>
+    <Technologies datatype="tokens">
+      germ/battle_magic
+      germ/bonfire
+      -health_regen_units
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/germ/temple_woden.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

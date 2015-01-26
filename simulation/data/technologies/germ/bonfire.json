@@ -1,0 +1,14 @@
+{
+	"genericName": "Fire",
+	"specificName": {
+		"germ": "Fōr"
+	},
+	"description": "A beer and a bonfire makes a man forget his wounds and pain.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "A beer and a bonfire makes a man forget his wounds and pain.\nEnables the construction of bonfires.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_formation">
+  <Formation>
+    <Icon>formations/battle_line.png</Icon>
+    <FormationName>Shieldwall</FormationName>
+    <SortingClasses>Melee</SortingClasses>
+    <SortingOrder>fillFromTheSides</SortingOrder>
+    <RequiredMemberCount>8</RequiredMemberCount>
+    <DisabledTooltip>8 Melee units required.</DisabledTooltip>
+    <UnitSeparationWidthMultiplier>0.75</UnitSeparationWidthMultiplier>
+    <ShiftRows>true</ShiftRows>
+    <MinColumns>4</MinColumns>
+    <MaxColumns>12</MaxColumns>
+    <MaxRows>4</MaxRows>
+    <WidthDepthRatio>4</WidthDepthRatio>
+  </Formation>
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+</Entity>

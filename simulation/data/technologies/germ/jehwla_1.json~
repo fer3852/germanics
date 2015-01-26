@@ -1,0 +1,17 @@
+{
+	"genericName": "Great Feast",
+	"specificName": {
+		"germ": "Jehwla"
+	},
+	"description": "The Germanic tribes liked their parties. In Tacitus' words: \"If you indulge their love of drinking by supplying them with as much as they desire, they will be overcome by their own vices as easily as by the arms of an enemy.\"",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword.png",
+	"researchTime": 40,
+	"tooltip": ."\"If you indulge their love of drinking by supplying them with as much as they desire, they will be overcome by their own vices as easily as by the arms of an enemy.\"\nThe Germanic tribes liked their parties. A lord who hosts parties makes his soldiers happy. Happy soldiers make an enemy unhappy. All Units +20% Hack and Pierce Attack, after a 120 second attack penalty of 50% because of drunkenness.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 0.5},
+		{"value": "Attack/Melee/Pierce", "multiply": 0.5}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

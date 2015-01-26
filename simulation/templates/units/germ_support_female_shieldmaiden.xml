@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/germ_champion_infantry">
+  <Attack>
+    <Melee>
+      <Hack>15</Hack>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>germ</Civ>
+    <Rank>Elite</Rank>
+    <SpecificName>Skeldmagaþs</SpecificName>
+    <GenericName>Shieldmaiden</GenericName>
+    <History>Many Germanic sagas feature warrior women. Some famous examples are Hervor, who was killed in the 4th century defending a Gothic fortress from the Huns, and Brunhild from the Nibelungenlied.</History>
+    <Tooltip>Many Germanic sagas feature warrior women. Some famous examples are Hervor, who was killed in the 4th century defending a Gothic fortress from the Huns, and Brunhild from the Nibelungenlied.</Tooltip>
+    <Classes datatype="tokens">Female Champion Infantry</Classes>
+    <Icon>units/celt_support_female_citizen.png</Icon>
+	<SelectionGroupName>units/germ_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>9.5</WalkSpeed>
+    <Run>
+      <Speed>24.6</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/germ/infantry_shieldmaiden.xml</Actor>
+  </VisualActor>
+</Entity>

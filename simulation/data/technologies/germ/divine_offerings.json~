@@ -1,0 +1,19 @@
+{
+	"genericName": "Divine Offerings",
+	"specificName":{
+		"germ":"Raidoz"	
+},
+	"description": "Sacrificing your fallen enemies' weapons will instill your troops with zeal.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"supersedes": "germ/special_germ_extra_loot",
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "crenelations.png",
+	"researchTime": 40,
+	"tooltip": "Sacrificing your fallen enemies' weapons will instill your troops with zeal. Removes the metal loot for killed enemies, but gives a +25% Melee and Hack attack bonus.",
+	"modifications": [{"value": "Looter/Resource/metal", "multiply": 0},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.25},
+		{"value": "Attack/Melee/Hack", "multiply": 1.25}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

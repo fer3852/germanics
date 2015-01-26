@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>structural/germ_fire.dae</mesh>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+	<texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+	<texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+      </textures>
+      <props>
+        <prop actor="particle/smoke_light_delay.xml" attachpoint="root"/>
+        <prop actor="particle/flame_large.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

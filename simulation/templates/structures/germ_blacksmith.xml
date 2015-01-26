@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_blacksmith">
+  <Cost>
+    <PopulationBonus>4</PopulationBonus>
+  </Cost>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -attack_infantry_melee_02
+      -attack_infantry_ranged_01
+      -attack_infantry_ranged_02
+      -attack_cavalry_melee_01
+      -attack_cavalry_melee_02
+      -attack_cavalry_ranged_01
+      -attack_cavalry_ranged_02
+      -armor_infantry_01
+      -armor_infantry_02
+      -armor_cav_01
+      -armor_cav_02
+      -armor_hero_01
+      germ/iron_spears
+      germ/iron_bosses
+      germ/shield_repairs
+      germ/shield_coating
+      germ/leather_armor
+      germ/imported_armor
+      germ/imported_weapons
+    </Technologies>
+  </ProductionQueue>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Smiþjǭ</SpecificName>
+	<History>"Even iron is not plentiful with them. [...] Few use swords or long lances. They carry a spear [...] so sharp and easy to wield that the same weapon serves [...] for close or distant conflict."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Although iron and, as a result, advanced weapons like swords were rare, the Germanic smiths were capable of producing high-quality ironworks. Good mastersmiths could become very wealthy and famous. Some were even remembered in poems and sagas, such as the famous Weland, whose lord had his hamstrings cut to prevent him from leaving his service and making his products for someone else!\nResearch weapons and armor improvements.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">
+	  Town
+    </VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/celts/blacksmith.xml</Actor>
+  </VisualActor>
+</Entity>

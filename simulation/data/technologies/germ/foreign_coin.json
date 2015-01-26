@@ -1,0 +1,13 @@
+{
+	"genericName": "Foreign coin",
+	"description": "\"The border population [...] are familiar with [...] some of our coins. [...] They like the old and well known money, coins milled, or showing a two-horse chariot.\"\nTacitus, De Origine et situ Germanorum, 98 CE.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "special_treasure.png",
+	"researchTime": 40,
+	"tooltip": "Using those strange metal disks of your neighbours seems to draw more foreign traders.\nTraders +25% Walk Speed, which quickly increases trade income.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.25}],
+	"affects": ["Trader"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

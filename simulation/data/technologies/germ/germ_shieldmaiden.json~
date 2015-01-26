@@ -1,0 +1,14 @@
+{
+	"genericName": "Shieldmaidens",
+	"description": "Female warriors are featured in many Germanic sagas. Grave goods and a few historical accounts seem to support their existence.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"supersedes": "germ/warring_women",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "agoge.png",
+	"researchTime": 60,
+	"tooltip": "Female warriors are featured in many Germanic sagas. Grave goods and a few historical accounts seem to support their existence.\nEnables women to promote to shieldmaidens.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 40}],
+	"affects": ["fem3"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

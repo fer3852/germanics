@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>structural/germ_fire.dae</mesh>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="particle/smoke_light_delay.xml" attachpoint="root"/>
+        <prop actor="particle/flame.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_bonfire.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+</actor>

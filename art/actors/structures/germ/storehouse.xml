@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Storehouse">
+      <mesh>structural/germ_storehouse.dae</mesh>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/germ/germ_storehouse_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

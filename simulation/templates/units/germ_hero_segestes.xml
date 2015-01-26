@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Worker</Affects>
+      <Modifications>
+        <ResourceGatherer.BaseSpeed> <Multiply>1.15</Multiply> </ResourceGatherer.BaseSpeed>
+      </Modifications>
+      <AuraName>Hero Aura</AuraName>
+      <AuraDescription>Gathering rates increased with +15% during his lifetime.</AuraDescription>
+    </Aura1>
+  </Auras>
+  <Attack>
+    <Melee>
+      <Hack>32.5</Hack>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>260</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Segestes</SpecificName>
+    <History>"From the moment when the deified Augustus made me a Roman citizen I have chosen my friends and my enemies with a view to your interests: not from hatred of my own country [...], but because I took the advantage of Rome and Germany to be one, and peace a better thing than war."\nWords ascribed to Segestes by Tacitus in his Annals, ca. 117 CE.</History>
+    <Tooltip>Segestes had a quite different view on Roman occupation than his son-in-law Arminius. Whereas Arminius wanted to defend the independence of his people by force, Segestes preferred dimoplacy. He recognised the enormous strength of the Roman empire, and saw the advantages of a military alliance. When this failed due to Arminius' rebellion, he spent over a decade warring his son-in-law.</Tooltip>
+    <Icon>units/celt_hero_vercingetorix.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/vercingetorix_horse.xml</Actor>
+  </VisualActor>
+</Entity>

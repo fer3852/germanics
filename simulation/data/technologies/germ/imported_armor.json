@@ -1,0 +1,17 @@
+{
+	"genericName": "Imported Weapons",
+	"specificName": {
+		"germ": "Walhiskō Gunþhamiþjan"
+	},
+	"description": "With iron an expensive commodity, metal armor was rare. Iron armor, especially higher quality, would often simply be bought from Celtic or Roman smiths.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1500},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "armor_cuirass_empire.png",
+	"researchTime": 40,
+	"tooltip": "With iron an expensive commodity, metal armor was rare. Iron armor, especially higher quality, would often simply be bought from Celtic or Roman smiths.\nAll Champions and Heros +1 Hack and Pierce Armor Level.",
+	"modifications": [{"value": "Armour/Hack", "add": 1.0},
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Champion","Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

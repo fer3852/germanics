@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege_ram">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="6.75" depth="10.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Rammaz</SpecificName>
+    <History>The rural society of the Germanic peoples meant that they were relatively unexperienced in siege warfare. When they wanted to take an enemy town or fortress, they'd either surround and starve its inhabitants or take it by surprise. If neither of those options were viable, they had no other choice but to resort to foreign methods.</History>
+    <Icon>units/celt_mechanical_siege_ram.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Unit radius="3.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/celts/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

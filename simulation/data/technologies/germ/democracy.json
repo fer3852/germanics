@@ -1,0 +1,17 @@
+{
+	"pair": "germ/king_choice",	
+	"genericName": "Democracy",
+	"specificName": {
+		"germ": "Starku Fulką"
+	},
+	"description": "People tend to work harder if they feel their opinion is appreciated.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "People tend to work harder if they feel their opinion is appreciated.\n+25% gathering rate for all units.",
+	"modifications": [{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

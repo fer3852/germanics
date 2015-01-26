@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="celt_slope_wall">
+      <mesh>props/palisade_rocks_medium.dae</mesh>
+      <props>
+        <prop actor="props/structures/germ/slope_wall_turf_medium.xml" attachpoint="root"/>
+      </props>
+      <textures><texture file="props/palisade_main.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

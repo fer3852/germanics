@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras>
+    <gather>
+      <Type>global</Type>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <ResourceGatherer.Rates.food.grain> <Multiply>1.25</Multiply> </ResourceGatherer.Rates.food.grain>
+      </Modifications>
+      <AuraName>Frijjō's Fertility</AuraName>
+      <AuraDescription>Knowing that Frijjō keeps the fields fertile instills your farmers with confidence.\n+25% Farming rate.</AuraDescription>
+    </gather>
+    <fight>
+      <Type>range</Type>
+      <Radius>50</Radius>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Attack.Ranged.Pierce> <Multiply>1.5</Multiply> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Multiply>1.5</Multiply> </Attack.Melee.Hack>
+      </Modifications>
+      <AuraName>Dedication to Frijjō</AuraName>
+      <AuraDescription>Rush to defend the grove, or Frijjō's wrath will surely come upon us!\n+50% Attack for units fighting near the temple.</AuraDescription>
+    </fight>
+  </Auras>
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+    <PlacementType>shore</PlacementType>
+  </BuildRestrictions>
+  <Cost>
+    <PopulationBonus>7</PopulationBonus>
+    <Resources>
+      <stone>0</stone>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="24.5" depth="24.5"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>germ</Civ>
+    <GenericName>Frigg's Grove</GenericName>
+    <SpecificName>Frijjōz fanją</SpecificName>
+    <Tooltip>Rather than building large temples for their deities, the Germanics were mostly satisfied with praying near sacred groves and trees. The wooden statue in this grove is of the goddess Frijjō.\nImprove your farming rate.</Tooltip>
+    <History>"The Germans, however, do not [...] confine the gods within walls, or [...] liken them to the form of any human countenance. They consecrate woods and groves [...]."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_support_healer_b
+    </Entities>
+    <Technologies datatype="tokens">
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      -heal_temple
+    </Technologies>
+  </ProductionQueue>
+  <Obstruction>
+    <Static width="22.5" depth="22.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/germ/temple_frigg.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

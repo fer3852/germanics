@@ -1,0 +1,13 @@
+{
+	"genericName": "Screeching Women",
+	"description": "\"Close by them, too, are those dearest to them, so that they hear the shrieks of women, the cries of infants. They are to every man the most sacret witnesses of his bravery - they are his most generous applauders.\"Tacitus, De Origine et situ Germanorum, 98 CE.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "agoge.png",
+	"researchTime": 60,
+	"tooltip": "With their families behind them, the warriors have the choice between fighting to death or letting their loved ones be killed.\nWomen will give a +15% attack bonus to nearby units.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["fem1"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

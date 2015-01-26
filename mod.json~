@@ -1,0 +1,9 @@
+{
+	"name": "germanics",
+	"version": "0.0.1",
+	"label": "0 A.D. Furor Germanicus",
+	"url": "play0ad.com",
+	"description": "Adds the Germanic tribes to the list of civilisations.",
+	"dependencies": ["0ad=0.0.18"],
+	"type": "game"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_2x4.xml" attachpoint="root"/>
+      </props>
+  </group>
+  <group>
+    <variant frequency="1" name="GermHouseC">
+      <mesh>structural/germ_house_c.dae</mesh>
+    </variant>
+    <variant frequency="1" name="GermHouseC_Roof">
+      <mesh>structural/germ_house_c.dae</mesh>
+      <props>
+        <prop actor="props/structures/germ/house_c_roof.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="GermHouseB">
+      <mesh>structural/germ_house_b.dae</mesh>
+    </variant>
+    <variant frequency="1" name="GermHouseB_shields">
+      <mesh>structural/germ_house_b.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/celt_round_a.xml" attachpoint="shield1"/>
+        <prop actor="props/units/shields/celt_round_a.xml" attachpoint="shield2"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="GermHouseA">
+      <mesh>structural/germ_house_a.dae</mesh>
+    </variant>
+  </group>
+</actor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_formation">
+  <Formation>
+    <Icon>formations/wedge.png</Icon>
+    <RequiredMemberCount>6</RequiredMemberCount>
+    <DisabledTooltip>6 Melee units required.</DisabledTooltip>
+    <SortingClasses>Melee</SortingClasses>
+    <FormationName>Swine's Head</FormationName>
+    <FormationShape>triangle</FormationShape>
+  </Formation>
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+</Entity>

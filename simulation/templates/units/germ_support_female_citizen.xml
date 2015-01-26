@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/germ_temple
+      structures/germ_temple_b
+    </Entities>
+  </Builder>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      germ/germ_screeching_women
+      germ/germ_warring_women
+      germ/germ_shieldmaiden
+    </Technologies>
+  </ProductionQueue>
+  <Attack>
+    <Melee>
+      <Hack>7</Hack>
+      <RestrictedClasses datatype="tokens">-Infantry -Cavalry -Champion -CitizenSoldier</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Frawjǭ</SpecificName>
+    <GenericName>Germanic Woman</GenericName>
+    <History>"They even believe that [women have] a certain sanctity and prescience, and they do not despise their counsels, or make light of their answers."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Germanic women were relatively powerful compared to their Roman and Greek counterparts. They were often asked for advice by their husbands and some grew to high places in society. In return, they were expected to defend themselves as the need arose, and were often taken along in wars to give their husbands something to fight for, rather than allow their loved ones to be killed.</Tooltip>
+    <Classes datatype="tokens">Worker Female fem1 Citizen</Classes>
+    <Icon>units/germ_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/germ_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <RequiredXp>99999</RequiredXp>
+    <Entity>units/germ_support_female_citizen_2</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/germ/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

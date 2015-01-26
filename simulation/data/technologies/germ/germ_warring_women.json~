@@ -1,0 +1,14 @@
+{
+	"genericName": "Warring Women",
+	"description": "Although rarely professional soldiers, women would fight if the necessity arose and would be expected to do so.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"supersedes": "germ/screeching_women",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "agoge.png",
+	"researchTime": 60,
+	"tooltip": "Although rarely professional soldiers, women would fight if the necessity arose and would be expected to do so.\nWomen fight back (although with only a weak attack).",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["fem2"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

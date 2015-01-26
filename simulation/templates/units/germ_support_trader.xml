@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Footprint>
+    <Circle radius="1.5"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Handlārijaz </SpecificName>
+    <History>The mostly agrarian society, and the tendency to conquer rather than trade, made the latter relatively small-scale in Germania. Goods were bartered rather than sold for money. The only exception to this were the Roman borders, where the Germanic tribes quickly learned of the Roman love for gold.\nTrade resources between your own markets and those of your allies. Germanic traders start out slightly less efficient than those of other tribes.</History>
+    <Icon>units/celt_support_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/trader.xml</Actor>
+  </VisualActor>
+  <Trader>
+    <GainMultiplier>0.8</GainMultiplier>
+  </Trader>
+</Entity>

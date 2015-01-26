@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Longhouse">
+      <mesh>structural/germ_longhouse3.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shielda"/>
+        <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shieldb"/>
+        <prop actor="props/units/shields/celt_round_a.xml" attachpoint="shieldc"/>
+        <prop actor="props/structures/decals/germ_dirt_fortress.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

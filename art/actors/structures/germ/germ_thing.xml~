@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Thing">
+      <mesh>structural/germ_thing.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/celt_round_a.xml" attachpoint="shielda"/>
+        <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shieldb"/>
+        <prop actor="props/units/shields/celt_round_e.xml" attachpoint="shieldc"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/germ_basic_2.png" name="baseTex"/>
+	    <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+	    <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

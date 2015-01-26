@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <!--<group>
+    <variant frequency="100" name="GermTempleFrigg">
+      <mesh>structural/germ_temple_woden.dae</mesh>
+      <textures>
+        <texture file="structural/germ_temple_woden.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>-->
+
+  <group>
+    <variant frequency="1" name="trunk-mesh-c">
+      <mesh>structural/germ_temple.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="trunk-texture">
+      <textures><texture file="gaia/trunk_deciduous_b.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="prop-treetop">
+      <props>
+        <prop actor="props/units/germ_priest_prop.xml" attachpoint="priest"/>
+        <prop actor="flora/trees/oak_large_top.xml" attachpoint="tree"/>
+        <prop actor="props/structures/germ/temple_fire.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/temple_fire_wood.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/temple_wall.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+
+  <material>basic_trans_wind.xml</material>
+</actor>

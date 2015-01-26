@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2013-07-27T15:10:44</created>
+    <modified>2013-07-27T15:10:44</modified>
+    <unit name="meter" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="celt_helmet_a-Geometry_003-mesh" name="celt_helmet_a-Geometry.003">
+      <mesh>
+        <source id

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>germ</Civ>
+    <SelectionGroupName>units/germ_cavalry_spearman_b</SelectionGroupName>
+    <SpecificName>Rīdandz Wrakjô</SpecificName>
+    <GenericName>Germanic Cavalry</GenericName>
+    <History>"[Their horses aren't] taught the various evolutions practised with us. The cavalry either bear down straight forwards, or wheel once to the right, in so compact a body that none is left behind the rest."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Like a sword, a horse was quite expenive and as a result cavalry was relatively rare. Nevertheless, the Germanic horsemanship had a high level as evidenced by the Romans who used Germanic soldiers in many of their elite cavalry forces.</Tooltip>
+    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/germ_cavalry_spearman_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>17.5</WalkSpeed>
+    <Run>
+      <Speed>28.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/germ/cavalry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

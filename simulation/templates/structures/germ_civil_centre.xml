@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>germ</Civ>
+    <SpecificName>Þingą</SpecificName>
+    <Tooltip>The Thing was the center of a Germanic community. Here, the tribesmen convened to discuss all matters of importance.\nBuild to acquire large tracts of territory. Train citizens. Garrison: 20.</Tooltip>
+    <History>"About minor matters the chiefs deliberate, about the more important the whole tribe. [...] They assemble [...] on certain fixed dates. Then the king [...] is heard, more because he has influence to persuade han because he has power to command."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+  </Identity>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
+  </Health>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/germ_infantry_spearman_b
+      units/germ_infantry_javelinist_b
+      units/germ_cavalry_spearman_b
+    </Entities>
+    <Technologies datatype="tokens">
+      phase_city_generic
+      germ/king_choice
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/germ/germ_thing.xml</Actor>
+  </VisualActor>
+</Entity>
