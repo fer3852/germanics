@@ -28,6 +28,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/celts/infantry_slinger_b.xml</Actor>
+    <Actor>units/germ/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

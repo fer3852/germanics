@@ -40,10 +40,26 @@
       </props>
     </variant>
   </group>
-  <group>
+  <!--<group>
     <variant frequency="1" name="shielded">
       <props>
         <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>-->
+  <group><!--capes-->
+    <variant frequency="1" name="Cape1">
+      <props>
+        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Cape2">
+      <props>
+        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="NoCape">
+      <props>
       </props>
     </variant>
   </group>
