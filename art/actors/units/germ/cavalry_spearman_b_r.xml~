@@ -1,1 +1,50 @@
-3 16781 2269 2162 16782 2271 2115 16783 2259 2112 16784 2260 2147 16785 2262 2158 16786 2248 2138 16787 2267 2161 16788 2266 2160 16789 2255 2113 16790 2284 2172 16791 2283 2132 16792 2282 2131 16793 2275 2170 16794 2274 2169 16795 2283 2132 16796 2274 2169 16797 2310 2171 16798 2308 2174 16799 2272 2133 16800 2273 2164 16801 2282 2131 16802 2285 2128 16803 2284 2172 16804 2286 2129 16805 2277 2167 16806 2276 2130 16807 2286 2129 16808 2278 2124 16809 2314 3955 16810 2313 2168 16811 2288 2122 16812 2287 2126 16813 2289 2123 16814 2279 2121 16815 2278 2124 16816 2289 2123 16817 2273 2164 16818 2309 2165 16819 2315 2166 16820 2291 2119 16821 2290 2125 16822 2280 2120 16823 2276 2130 16824 2312 3956 16825 2311 2175 16826 2295 2173 16827 2294 2135 16828 2293 2149 16829 3002 2879 16830 3006 2881 16831 3005 2838 16832 2302 2136 16833 2303 2117 16834 2300 2146 16835 961 903 16836 1009 3879 16837 1008 945 16838 2261 2157 16839 2301 2145 16840 2265 2159 16841 2254 2154 16842 2295 2173 16843 2258 2156 16844 2249 2150 16845 2251 2152 16846 2293 2149 16847 2327 2207 16848 2364 2176 16849 2337 2178 16850 3472 3321 16851 3486 3343 16852 3488 3322 16853 2371 2183 16854 2336 2228 16855 2338 2184 16856 2348 2186 16857 2341 2230 16858 2347 2187 16859 2345 2233 16860 2356 2188 16861 2346 2190 16862 2355 2192 16863 2352 2238 16864 2349 2193 16865 2343 2236 16866 2353 2194 16867 2344 2196 16868 2351 2198 16869 2342 2235 16870 2340 2199 16871 2368 2213 16872 2360 2200 16873 2370 2202 16874 2597 2443 16875 2599 2471 16876 2609 2441 16877 2366 2206 16878 2374 2209 16879 2372 2177 16880 2327 2207 16881 2326 2223 16882 2365 2208 16883 2331 2210 16884 2333 2226 16885 2375 2211 16886 2369 2212 16887 2371 2183 16888 2373 2182 16889 2318 2218 16890 2360 2200 16891 2328 2214 16892 2361 2241 16893 2367 2215 16894 2363 2216 16895 2377 2240 16896 2341 2230 16897 2376 2231 16898 2382 3957 16899 2346 2190 16900 2383 2232 16901 2380 3958 16902 2344 2196 16903 2381 2234 16904 2378 2239 16905 2342 2235 16906 2379 2237 16907 2329 2224 16908 2328 2214 16909 2368 2213 16910 2334 2227 16911 2336 2228 16912 2371 2183 16913 2338 2184 16914 2337 2178 16915 2372 2177 16916 2361 2241 16917 2360 2200 16918 
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
+        <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
+        <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
+        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
+        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
+        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="gather_meat" speed="400"/>
+        <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
+      </animations>
+      <mesh>skeletal/m_pants_celt.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="clothing-01">
+      <textures><texture file="skeletal/celt_isw_b_01.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="clothing-02">
+      <textures><texture file="skeletal/celt_isw_b_02.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="clothing-03">
+      <textures><texture file="skeletal/celt_isw_b_03.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="clothing-04">
+      <textures><texture file="skeletal/celt_isw_b_04.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="carry_meat">
+      <props>
+        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
+        <prop attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
+        <prop attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
