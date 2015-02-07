@@ -3,7 +3,7 @@
 	"Culture": "germ",
 	"Name": "Germanics",
 	"Emblem": "session/portraits/emblems/emblem_celts.png",
-	"History": "The Gauls were the Celtic tribes of continental Europe. Dominated by a priestly class of Druids, they featured a sophisticated culture of advanced metalworking, agriculture, trade and even road engineering. With heavy infantry and cavalry, Gallic warriors valiantly resisted Caesar's campaign of conquest and Rome's authoritarian rule.",
+	"History": "The Germanics were a people originally from Northern Europe. In the centuries before 0CE, the changing climate and overpopulation forced them south into Celtic lands. There, they met the Romans as both civilisations tried to subdue the Gauls. After a series of bloody conflicts, culminating in the infamous Battle of Teutoburg Forest, both sides would eventually settle on the Rhine as border.",
 	"Music":[
 			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
 			{"File":"Celtic_Pride.ogg", "Type":"peace"},
@@ -13,19 +13,19 @@
 	"Factions":
 	[
 		{
-			"Name": "Gauls",
-			"Description": "The Celts of mainland Europe.",
+			"Name": "Germanics",
+			"Description": "The Northern scourge.",
 			"Technologies":
 			[
 				{
-					"Name": "Uae Uictos",
-					"History": "Means Woe to the Defeated. It was the words that the Gallic Leader, Brennos, spoke at the Capitol at Rome after they took their plunder.",
-					"Description": "A set amount of metal and food from every structure destroyed or captured." 
+					"Name": "Raidō",
+					"History": "The Germanics were used to war and plunder.",
+					"Description": "A set amount of metal from every unit and structure destroyed or captured." 
 				},
 				{
-					"Name": "Carnutes",
-					"History": "The Carnutes were druids from Aulercia. They fought when needed, and were largely responsible for turning back the Belgae incursions into Armorica and Aulercia.",
-					"Description": "Gallic druids gain a small melee attack." 
+					"Name": "Skeldmagaþs",
+					"History": "Female warriors are featured in many Germanic sagas. Grave goods and a few historical accounts seem to support their existence.",
+					"Description": "Women can promote to shieldmaidens." 
 				} 
 			],
 			"Heroes":
@@ -64,24 +64,33 @@
 		{
 			"Name": "Aizō Kunjas",
 			"History": "The importance of honour and braveness inspired their warlike mindset. ",
-			"Description": "Druids increase attack rates of soldiers near them slightly." 
+			"Description": "Healers increase attack rates of soldiers near them slightly." 
 		} 
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Druides",
-			"History": "The Druids of the Celts maintained an organized religion that advanced the technology of their people even during wartime.",
-			"Description": "Bonus to tech speed." 
+			"Name": "Werrō",
+			"History": "Constant raiding .",
+			"Description": "Bonus to attack." 
 		} 
 	],
 	"Structures":
 	[
 		{
-			"Name": "Melonas",
+			"Name": "Fōr",
 			"Class": "",
 			"Emblem": "",
-			"History": "The Celts developed the first rotary flour mill.",
+			"History": "The Germanics were known for their large feasts.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "" 
+		},
+		{
+			"Name": "Nīþąstakô",
+			"Class": "",
+			"Emblem": "",
+			"History": "Nithing poles were raised to bring woe to the cursed.",
 			"Requirements": "",
 			"Phase": "",
 			"Special": "" 
@@ -90,22 +99,22 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/gaul_civil_centre" 
+			"Template": "structures/germ_civil_centre" 
 		},
 		{
-			"Template": "units/gaul_support_female_citizen",
+			"Template": "units/germ_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/gaul_infantry_spearman_b",
+			"Template": "units/germ_infantry_spearman_b",
 			"Count": 2 
 		},
 		{
-			"Template": "units/gaul_infantry_javelinist_b",
+			"Template": "units/germ_infantry_javelinist_b",
 			"Count": 2 
 		},
 		{
-			"Template": "units/gaul_cavalry_javelinist_b" 
+			"Template": "units/germ_cavalry_spearman_b" 
 		}
 	],
 	"Formations":
