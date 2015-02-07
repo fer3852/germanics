@@ -12,19 +12,19 @@
   </Health>
   <Identity>
     <Civ>germ</Civ>
-    <SpecificName>Gwersyllty</SpecificName>
-	<History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History>
+    <SpecificName>Salą</SpecificName>
+    <GenericName>Mead Hall</GenericName>
+	<History>The Mead Hall was the place where warriors would celebrate their victories and entice each other to go to war.</History>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/celt_infantry_spearman_b
-      units/celt_infantry_javelinist_b
-      units/celt_infantry_slinger_b
-      units/celt_cavalry_swordsman_b
-      units/celt_cavalry_javelinist_b
+      units/germ_infantry_spearman_b
+      units/germ_infantry_slinger_b
+      units/germ_infantry_javelinist_b
+      units/germ_cavalry_spearman_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

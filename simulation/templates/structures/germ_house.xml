@@ -5,9 +5,9 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>gaul</Civ>
-    <SpecificName>Annedd</SpecificName>
-    <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
+    <Civ>germ</Civ>
+    <SpecificName>Hūsą</SpecificName>
+    <History>The Germanic peoples lived in longhouses together with their cattle.</History>
   </Identity>
   <Obstruction>
     <Static width="12.0" depth="12.0"/>
