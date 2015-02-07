@@ -51,7 +51,7 @@
         <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>
       </props>
     </variant>
-    <variant frequency="2" name="NoCape">
+    <variant frequency="1" name="NoCape">
       <props>
       </props>
     </variant>
