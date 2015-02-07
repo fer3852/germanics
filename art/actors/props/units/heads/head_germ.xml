@@ -2,8 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group><!--base-->
-    <variant name="longhair">
+    <variant frequency="2" name="longhair">
       <mesh>props/head_longhair.dae</mesh>
+    </variant>
+    <variant frequency="1" name="short hair">
+      <mesh>props/head_beard_small.dae</mesh>
+    </variant>
+    <variant frequency="3" name="suebian knot">
+      <mesh>props/head_suebian_knot.dae</mesh>
     </variant>
   </group>
   <group><!--textures-->
@@ -20,10 +26,10 @@
       <textures><texture file="props/head/celt_j.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="face-e">
-      <textures><texture file="props/head/celt_j.dds" name="baseTex"/></textures>
+      <textures><texture file="props/head/hele_b.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="face-f">
-      <textures><texture file="props/head/celt_j.dds" name="baseTex"/></textures>
+      <textures><texture file="props/head/hele_i.dds" name="baseTex"/></textures>
     </variant>
   </group>
 
@@ -40,7 +46,7 @@
     <variant frequency="12" name="hair-dark blonde">
       <colour>186 154 92</colour>
     </variant>
-    <variant frequency="9" name="hair-blonde">
+    <variant frequency="10" name="hair-blonde">
       <colour>255 194 78</colour>
     </variant>
   </group>
