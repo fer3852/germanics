@@ -12,7 +12,7 @@
     <SpecificName>Aþalai</SpecificName>
     <Tooltip>"A few only have corslets, and just one or two here and there a metal or leather helmet."\nTacitus, De Origine et situ Germanorum, 98 CE.</Tooltip>
     <History>Swords and armour were rare mong the Germanic tribes, not in the least because of a relative lack of iron. As a result, only noblemen could afford these weapons.</History>
-    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+    <Icon>units/germ_champion_infantry.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>8.5</WalkSpeed>
