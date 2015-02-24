@@ -31,6 +31,6 @@
     <Icon>units/celt_hero_vercingetorix.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/celts/vercingetorix_horse.xml</Actor>
+    <Actor>units/germ/arminius_horse.xml</Actor>
   </VisualActor>
 </Entity>
