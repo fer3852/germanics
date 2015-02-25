@@ -36,6 +36,7 @@
     <Tooltip>The joys of a warm bonfire will make your soldiers forget about their wounds.\nQuickly heal nearby units.</Tooltip>
     <History>"Whenever they are not fighting, they pass much of their time in the chase, and still more in idleness, giving themselves up to sleep and to feasting[.]"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Classes datatype="tokens">fire</Classes>
+    <RequiredTechnology>germ/bonfire</RequiredTechnology>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
