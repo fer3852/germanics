@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "shields_generic_bronze.png",
 	"researchTime": 40,
-	"tooltip": "An iron boss can turn a shield into a deadly blunt weapon.\n+15% melee\n infantry attack.",
+	"tooltip": "An iron boss can turn a shield into a deadly blunt weapon.\n+15% melee infantry attack.",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15},
 		{"value": "Attack/Melee/Pierce", "multiply": 1.15},
 		{"value": "Attack/Melee/Crush", "multiply": 1.15}],

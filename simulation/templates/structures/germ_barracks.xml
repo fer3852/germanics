@@ -26,6 +26,11 @@
       units/germ_infantry_javelinist_b
       units/germ_cavalry_spearman_b
     </Entities>
+    <Technologies datatype="tokens">
+      germ/ale
+      germ/mercenary_army
+      germ/professional_hirelings
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/germ/barracks.xml</Actor>

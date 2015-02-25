@@ -5,7 +5,7 @@
 	},
 	"description": "Coating your shields with leather will improve their strength.",
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 0},
-	"supersedes": "germ/shield_repairs",
+	"supersedes": "germ/mercenary_army",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "shields_generic_bronze.png",
