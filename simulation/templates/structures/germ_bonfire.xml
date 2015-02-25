@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <Auras>
+    <heal>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Health.RegenRate> <Add>1</Add> </Health.RegenRate>
+      </Modifications>
+      <AuraName>Healing Aura</AuraName>
+      <AuraDescription>Heals nearby units at 1 HP per second.</AuraDescription>
+    </heal>
+    <die>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>fire</Affects>
+      <Modifications>
+        <Health.RegenRate> <Add>-1</Add> </Health.RegenRate>
+      </Modifications>
+      <AuraName>Dying out</AuraName>
+      <AuraDescription>Without proper and constant attention, every bonfire will eventually die out.</AuraDescription>
+    </die>
+  </Auras>
   <BuildRestrictions>
     <Category>House</Category>
   </BuildRestrictions>
@@ -12,7 +34,8 @@
     <GenericName>Bonfire</GenericName>
     <SpecificName>Fōr</SpecificName>
     <Tooltip>The joys of a warm bonfire will make your soldiers forget about their wounds.\nQuickly heal nearby units.</Tooltip>
-    <History>"About minor matters the chiefs deliberate, about the more important the whole tribe. [...] They assemble [...] on certain fixed dates. Then the king [...] is heard, more because he has influence to persuade han because he has power to command."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <History>"Whenever they are not fighting, they pass much of their time in the chase, and still more in idleness, giving themselves up to sleep and to feasting[.]"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Classes datatype="tokens">fire</Classes>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
