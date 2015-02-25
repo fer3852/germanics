@@ -10,8 +10,8 @@
     <Civ>germ</Civ>
     <GenericName>Noble Swordsmen</GenericName>
     <SpecificName>Aþalai</SpecificName>
-    <Tooltip>"A few only have corslets, and just one or two here and there a metal or leather helmet."\nTacitus, De Origine et situ Germanorum, 98 CE.</Tooltip>
-    <History>Swords and armour were rare mong the Germanic tribes, not in the least because of a relative lack of iron. As a result, only noblemen could afford these weapons.</History>
+    <History>"A few only have corslets, and just one or two here and there a metal or leather helmet."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Swords and armour were rare mong the Germanic tribes, not in the least because of a relative lack of iron. As a result, only noblemen could afford these weapons.</Tooltip>
     <Icon>units/germ_champion_infantry.png</Icon>
   </Identity>
   <UnitMotion>
