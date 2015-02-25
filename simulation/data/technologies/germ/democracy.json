@@ -10,7 +10,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
 	"researchTime": 40,
-	"tooltip": "People tend to work harder if they feel their opinion is appreciated.\n+25% gathering rate for all units.",
+	"tooltip": "People tend to work harder if they feel their opinion is appreciated.\n+15% gathering rate for all units.",
 	"modifications": [{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15}],
 	"affects": ["Unit"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
