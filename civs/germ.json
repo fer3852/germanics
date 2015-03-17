@@ -2,7 +2,7 @@
 	"Code": "germ",
 	"Culture": "germ",
 	"Name": "Germanics",
-	"Emblem": "session/portraits/emblems/emblem_celts.png",
+	"Emblem": "session/portraits/emblems/emblem_germ.png",
 	"History": "The Germanics were a people originally from Northern Europe. In the centuries before 0CE, the changing climate and overpopulation forced them south into Celtic lands. There, they met the Romans as both civilisations tried to subdue the Gauls. After a series of bloody conflicts, culminating in the infamous Battle of Teutoburg Forest, both sides would eventually settle on the Rhine as border.",
 	"Music":[
 			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
@@ -114,7 +114,7 @@
 			"Count": 2 
 		},
 		{
-			"Template": "units/germ_cavalry_spearman_b" 
+			"Template": "units/germ_cavalry_spearman_b"
 		}
 	],
 	"Formations":

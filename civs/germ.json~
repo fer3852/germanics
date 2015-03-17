@@ -114,7 +114,7 @@
 			"Count": 2 
 		},
 		{
-			"Template": "units/germ_cavalry_spearman_b" 
+			"Template": "units/germ_cavalry_spearman_b"
 		}
 	],
 	"Formations":
@@ -132,7 +132,7 @@
 	],
 	"AINames":
 	[
-		"Erminaz",
+		"Alboin",
 		"Walthari",
 		"Maroboduus",
 		"Merovech",
