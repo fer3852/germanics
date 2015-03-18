@@ -1,5 +1,7 @@
 {
 	"genericName": "Democracy or autocracy?",
 	"top": "germ/democracy",
-	"bottom": "germ/autocracy"
+	"bottom": "germ/autocracy",
+	"requirements": {"tech": "phase_city"},
+	"icon": "political_face.png"
 }

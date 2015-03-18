@@ -31,7 +31,6 @@
     </Entities>
     <Technologies datatype="tokens">
       germ/battle_magic
-      germ/bonfire
       -health_regen_units
     </Technologies>
   </ProductionQueue>

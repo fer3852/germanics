@@ -19,7 +19,7 @@
     <SpecificName>Kuningas Salą</SpecificName>
     <Tooltip>Although much of the Germanic army consisted of simple citizen-soldiers who'd return home as soon as the battle was over, a strong king could maintain a professional and standing army.\nTrain Germanic heroes and champions. Construct siege rams.</Tooltip>
     <History>"When they go into battle, it is a disgrace for the chief to be surpassed in valour, a disgrace for his followers not to equal the valour of the cief. [...] The chief fights for victory, his vassals fight for their chief."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Sound>
     <SoundGroups>

@@ -1,1 +1,53 @@
-7383862 0.09688258 0.7391481 0.3132298 0.7391644 0.096879 0.7490082 0.427384 0.6946393 0.4315325 0.6789234 0.4374381 0.7197837 0.4142244 0.6465749 0.4033551 0.6542952 0.3140812 0.6435434 0.09765994 0.650144 0.3137758 0.6534104 0.09753692 0.6584885 0.4037399 0.6303032 0.4125764 0.535968 0.4229622 0.6312708 0.3116101 0.7301266 0.096879 0.7308084 0.09693133 0.7209495 0.096879 0.7308084 0.3116101 0.7301266 0.09688258 0.7391481 0.5009598 0.4815917 0.4194394 0.518046 0.4972077 0.4739182 0.3848843 0.5144374 0.3258241 0.5679805 0.3015611 0.538116 0.3846202 0.4976939 0.3809636 0.5014916 0.3777038 0.4884311 0.461586 0.4097736 0.3770926 0.460833 0.4574064 0.4022153 0.4924613 0.4650255 0.4019526 0.4961013 0.4665611 0.4186606 0.6895427 0.3614727 0.4924613 0.4650255 0.6641123 0.3134769 0.6942998 0.3705286 0.4972077 0.4739182 0.6895427 0.3614727 0.7030783 0.3872488 0.5083664 0.493537 0.6983397 0.3782309 0.4019526 0.4961013 0.3846202 0.4976939 0.3897519 0.4725741 0.461586 0.4097736 0.4665611 0.4186606 0.3897519 0.4725741 0.3258241 0.5679805 0.2001083 0.6826099 0.1725834 0.6512197 0.4136421 0.5097702 0.4019526 0.4961013 0.4924613 0.4650255 0.3693913 0.4840059 0.364201 0.4764275 0.3706809 0.4687487 0.4523356 0.3933194 0.4574064 0.4022153 0.3706797 0.453874 0.6551685 0.2967066 0.4574064 0.4022153 0.6503576 0.2876879 0.3809636 0.
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Hair-Bun">
+      <mesh>props/dudette_head.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Hair-Long">
+      <mesh>props/head_boudicca.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Hair-Short">
+      <mesh>props/helmet/head_female_d.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Face-01">
+      <textures><texture file="props/head/celt_fem_b.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face-02">
+      <textures><texture file="props/head/celt_fem_boudicca_1.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face-03">
+      <textures><texture file="props/head/celt_fem_c.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="color-blonde">
+      <colour>232 205 123</colour>
+    </variant>
+    <variant frequency="1" name="color-red">
+      <colour>224 120 16</colour>
+    </variant>
+    <variant frequency="3" name="color-brown">
+      <colour>120 114 35</colour>
+    </variant>
+    <variant frequency="1" name="hair-dark brown">
+      <colour>75 61 38</colour>
+    </variant>
+    <variant frequency="3" name="hair-brown">
+      <colour>99 82 53</colour>
+    </variant>
+    <variant frequency="6" name="hair-medium brown">
+      <colour>138 110 61</colour>
+    </variant>
+    <variant frequency="12" name="hair-dark blonde">
+      <colour>186 154 92</colour>
+    </variant>
+    <variant frequency="10" name="hair-blonde">
+      <colour>255 194 78</colour>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

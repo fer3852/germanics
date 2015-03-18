@@ -1,0 +1,11 @@
+{
+	"genericName": "Battle magic",
+	"description": "Whether the magic works or not, it surely raises your troops' morale.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "cauldron.png",
+	"researchTime": 40,
+	"tooltip": "Whether the magic works or not, it surely raises your troops' morale.\nEnables the construction of nithing poles.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

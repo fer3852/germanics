@@ -1,16 +1,15 @@
 {
-	"genericName": "Professional hirelings",
+	"genericName": "Mercenary Army",
 	"specificName": {
 		"germ": "Hūzijōlingaz"
 	},
-	"description": "Coating your shields with leather will improve their strength.",
+	"description": "Sending your troops to war is a great way to train them, even if it's another man's war.",
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 0},
-	"supersedes": "germ/shield_repairs",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "shields_generic_bronze.png",
 	"researchTime": 40,
-	"tooltip": "Coating your shields with leather will improve their strength.\nAll Infantry +1 Hack and Pierce Armor Level.",
+	"tooltip": "Sending your troops to war is a great way to train them, even if it's another man's war.\nAll Infantry +1 Hack and Pierce Armor Level.",
 	"modifications": [{"value": "Armour/Hack", "add": 1.0},
 		{"value": "Armour/Pierce", "add": 1.0}],
 	"affects": ["Infantry"],

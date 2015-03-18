@@ -28,8 +28,8 @@
     <GenericName>Berserker</GenericName>
     <SpecificName>Wulfhidanaz</SpecificName>
     <Tooltip>Devoted to Woden and likely under the influence of drugs, these warriors feel neither fear nor pain.</Tooltip>
-    <History>Devoted to Woden and likely under the influence of drugs, these warriors feel neither fear nor pain.</History>
-    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+    <History>"Wolf-skinned they are called. In battle they bear bloody shields."\nÞorbjörn Hornklofi, Hrafnsmál, 9th century CE.</History>
+    <Icon>units/germ_champion_infantry_spearman.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>

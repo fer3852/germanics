@@ -18,7 +18,7 @@
     <Max>100</Max>
   </Health>
   <Promotion>
-    <Entity>units/celt_infantry_slinger_e</Entity>
+    <Entity>units/germ_infantry_slinger_e</Entity>
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>

@@ -1,0 +1,17 @@
+{
+	"pair": "germ/king_choice",	
+	"genericName": "Autocracy",
+	"specificName": {
+		"germ": "Starkuz kuningaz"
+	},
+	"description": "A strong king can raise an army seemingly out of nowhere.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "statue_face_stone.png",
+	"researchTime": 40,
+	"tooltip": "A strong king can raise an army seemingly out of nowhere.\n-15% recruitment time for all units.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.85}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

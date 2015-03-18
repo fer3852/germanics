@@ -71,7 +71,7 @@
 	[
 		{
 			"Name": "Werrō",
-			"History": "Constant raiding .",
+			"History": "Constant raiding amongst the Germanic tribes made them very well trained.",
 			"Description": "Bonus to attack." 
 		} 
 	],
@@ -110,11 +110,11 @@
 			"Count": 2 
 		},
 		{
-			"Template": "units/germ_infantry_javelinist_b",
+			"Template": "units/germ_infantry_slinger_b",
 			"Count": 2 
 		},
 		{
-			"Template": "units/germ_cavalry_spearman_b" 
+			"Template": "units/germ_cavalry_spearman_b"
 		}
 	],
 	"Formations":
@@ -132,15 +132,15 @@
 	],
 	"AINames":
 	[
-		"Britomartos",
-		"Brennos",
-		"Uerkingetorix",
-		"Divico",
-		"Ambiorix",
-		"Ariovistus",
-		"Cassivellaunus",
-		"Liscus",
-		"Valetiacos"
+		"Alboin",
+		"Walthari",
+		"Maroboduus",
+		"Merovech",
+		"Childeric",
+		"Eadwacer",
+		"Fritigern",
+		"Alaric",
+		"Aethelred"
 	],
 	"SkirmishReplacements":
 	{
