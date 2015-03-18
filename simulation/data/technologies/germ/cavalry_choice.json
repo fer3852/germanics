@@ -1,7 +1,7 @@
 {
 	"genericName": "Cheap vs. Strong",
 	"top": "germ/training_levy_cavalry",
-	"bottom": "germ/training_batavian_cavalry",
+	"bottom": "germ/training_dedicated_cavalry",
 	"requirements": {"tech": "phase_town"},
 	"icon": "nisean_war_horses.png"
 }

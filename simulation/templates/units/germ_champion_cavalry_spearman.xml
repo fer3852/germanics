@@ -6,9 +6,9 @@
     <SpecificName>Batawjōz Ridarijaz</SpecificName>
     <GenericName>Batavian Cavalry</GenericName>
     <History>"They also had at home a select body of cavalry which excelled in swimming; keeping their arms and horses they crossed the Rhine without breaking their formation."\nTacitus, Historiae, 105 CE.</History>
-    <Tooltip>The Batavians were known to be able to pass water on horseback, thereby being able to attack unsuspecting enemies. The Romans used this in the Battle of the Medway in Britannia, when they sent a detachment of Batavians towards a Celtic island fortress. The Celts, feeling safe on their island, hadn't posted any guards and were easily defeated.\nDue to their strict training, Batavian Cavalry can swim deeper than most other units can. This gives you the opportunity to attack your enemies from unexpected directions.</Tooltip>
+    <Tooltip>The Batavians were known to be able to pass water on horseback, thereby being able to attack unsuspecting enemies. The Romans used this in the Battle of the Medway in Britannia, when they sent a detachment of Batavians towards a Celtic island fortress. The Celts, feeling safe on their island, hadn't posted any guards and were easily defeated.\nDue to their strict training, Batavian Cavalry can swim deeper than other land units can.</Tooltip>
     <Icon>units/germ_champion_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>germ/training_batavian_cavalry</RequiredTechnology>
   </Identity>
   <Position>
     <Floating>false</Floating>

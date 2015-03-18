@@ -1,0 +1,16 @@
+{
+	"pair": "germ/cavalry_choice",	
+	"genericName": "Mounted Training",
+	"description": "Training your retinue in the arts of mounted warfare from the very start will make them stronger.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "horse_rider.png",
+	"researchTime": 40,
+	"tooltip": "Training your retinue in the arts of mounted warfare from the very start will make them stronger.\nAll cavalry +25% health.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 1.25}
+	],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
