@@ -11,7 +11,6 @@
     <History>"They transact no public or private business without being armed. it is not, however, usual for anyone to wear arms till the state has recognized his power to use them."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Tooltip>Although the Germanics preferred to prove their valour in hand-to-hand combat, they were smart enough to employ long-distance fighting if needed. Naturally, the young and inexperienced would be used for this task.</Tooltip>
     <Icon>units/germ_infantry_slinger.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/germ_infantry_slinger_a</Entity>

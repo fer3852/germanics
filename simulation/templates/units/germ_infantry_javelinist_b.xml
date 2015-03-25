@@ -12,6 +12,7 @@
     <History>"[...]; the foot-soldiers also scatter showers of missiles, each man having several and hurling them to an immense distance, and being naked or lightly clad with a little cloak."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Tooltip>The young and inexperienced were sometimes used to throw a range of objects, from spears to stones, at the enemy.</Tooltip>
     <Icon>units/germ_infantry_javelinist.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/germ_infantry_javelinist_a</Entity>
