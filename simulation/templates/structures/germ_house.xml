@@ -8,10 +8,18 @@
     <Civ>germ</Civ>
     <SpecificName>Hūsą</SpecificName>
     <History>The Germanic peoples lived in longhouses together with their cattle.</History>
+    <Tooltip>The Germanics used longhouses, where they lived together with their extended family and cattle.\nIncrease the population limit and recruit women and cattle.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="12.0" depth="12.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_female_citizen_house
+      gaia/germ_bovine
+    </Entities>
+  </ProductionQueue>
   <TerritoryInfluence>
     <Radius>16</Radius>
     <Weight>65536</Weight>
