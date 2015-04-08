@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
 	<Footprint>
-		<Square width="20" depth="20"/>
+		<Square width="15" depth="15"/>
 		<Height>8.0</Height>
 	</Footprint>
 	<Identity>
@@ -10,7 +10,7 @@
 		<History>Germanic farming concentrated on grain and cattle.</History>
 	</Identity>
 	<Obstruction>
-		<Static width="21" depth="20"/>
+		<Static width="15" depth="15"/>
 	</Obstruction>
 	<VisualActor>
 		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>

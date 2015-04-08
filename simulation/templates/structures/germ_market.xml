@@ -4,7 +4,7 @@
     <PopulationBonus>12</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="26.0" depth="24.0"/>
+    <Square width="14.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -16,7 +16,7 @@
     <History>Compared to their Celtic and Roman neighbours, the Germanics tended to raid and conquer instead of trade. Only near the Roman border did they use coins, and even there they preferred a simple barter system.</History>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="23.0"/>
+    <Static width="13.0" depth="23.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/germ/market.xml</Actor>

@@ -4,7 +4,7 @@
     <PopulationBonus>4</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="24.0" depth="20.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -17,7 +17,7 @@
 	<History>The Mead Hall was the place where warriors would celebrate their victories and entice each other to go to war.</History>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="22.0" depth="18.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
