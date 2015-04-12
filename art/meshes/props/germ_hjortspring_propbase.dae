@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.74.0 commit date:2015-03-31, commit time:13:39, hash:000dfc0</authoring_tool>
+    </contributor>
+    <created>2015-04-12T14:59:41</created>
+    <modified>2015-04-12T14:59:41</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="Plane-mesh" name="Plane">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="9">0.2671664 -0.2671664 0 -0.2671664 0.2671664 0 0.2671664 0.2671664 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-map-0">
+          <float_array id="Plane-mesh-map-0-array" count="6">0.9999 9.998e-5 0.9999 0.9998998 9.998e-5 0.9998999</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-map-0-array" count="3" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <polylist count="1">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 </vcount>
+          <p>1 0 0 2 0 1 0 0 2</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Props" name="Props" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plane-mesh"/>
+        <node id="prop_shield1" name="prop_shield1" type="NODE">
+          <matrix sid="transform">-4.37114e-8 -1 2e-7 2.529887 1 -4.37114e-8 3.12908e-16 2.2117e-7 8.42937e-15 2e-7 1 0.9519743 0 0 0 1</matrix>
+        </node>
+        <node id="prop_shield4" name="prop_shield4" type="NODE">
+          <matrix sid="transform">1.94707e-7 1 -2e-7 -2.52989 -1 1.94707e-7 -4.21799e-14 -2.2117e-7 -3.23844e-15 2e-7 1 0.9519743 0 0 0 1</matrix>
+        </node>
+        <node id="prop_shield6" name="prop_shield6" type="NODE">
+          <matrix sid="transform">0.1564345 0.9876883 -1.97538e-7 -2.027691 -0.9876883 0.1564345 -3.12869e-8 -6 0 2e-7 1 1.037448 0 0 0 1</matrix>
+        </node>
+        <node id="prop_shield5" name="prop_shield5" type="NODE">
+          <matrix sid="transform">-0.1564342 0.9876884 -1.97538e-7 -2.02769 -0.9876884 -0.1564342 3.12868e-8 6 -3.05233e-15 2e-7 1 1.037448 0 0 0 1</matrix>
+        </node>
+        <node id="prop_shield2" name="prop_shield2" type="NODE">
+          <matrix sid="transform">-0.1564346 -0.9876882 1.97538e-7 2.027689 0.9876882 -0.1564346 3.12869e-8 6 1.82074e-14 2e-7 1 1.037448 0 0 0 1</matrix>
+        </node>
+        <node id="prop_shield3" name="prop_shield3" type="NODE">
+          <matrix sid="transform">0.1564344 -0.9876884 1.97538e-7 2.02769 0.9876884 0.1564344 -3.12869e-8 -6 1.54061e-14 2e-7 1 1.037448 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -17,7 +17,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/gaul_ship_trireme
+      units/germ_ship_trireme
     </Entities>
   </ProductionQueue>
   <VisualActor>
