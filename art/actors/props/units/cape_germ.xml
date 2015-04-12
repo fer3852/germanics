@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <!--<group>
+    <variant frequency="1" name="Cape Black">
+      <color>86 85 82</color>
+    </variant>
+  </group>-->
+  <group>
+    <variant frequency="1" name="Clothes-1">
+      <mesh>props/germ_cape.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Clothes-2">
+      <mesh>props/germ_cape_short.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Clothes-1">
+      <textures>
+        <texture file="props/cape_germ.png" name="baseTex"/>
+        <texture file="props/cape_germ_spec.png" name="specTex"/>
+      </textures>        
+    </variant>
+    <variant frequency="1" name="Clothes-2">
+      <textures>
+        <texture file="props/cape_germ2.png" name="baseTex"/>
+        <texture file="props/cape_germ_spec.png" name="specTex"/>
+      </textures>      
+    </variant>
+    <variant frequency="1" name="Clothes-3">
+      <textures>
+        <texture file="props/cape_germ3.png" name="baseTex"/>
+        <texture file="props/cape_germ_spec.png" name="specTex"/>
+      </textures>      
+    </variant>
+    <variant frequency="1" name="Clothes-4">
+      <textures>
+        <texture file="props/cape_germ4.png" name="baseTex"/>
+        <texture file="props/cape_germ_spec.png" name="specTex"/>
+      </textures>      
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

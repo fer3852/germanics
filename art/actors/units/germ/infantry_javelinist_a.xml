@@ -41,18 +41,7 @@
         <prop actor="props/units/heads/head_germ.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/jav.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
-  </group>
-  <group><!--capes-->
-    <variant frequency="1" name="Cape1">
-      <props>
-        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Cape2">
-      <props>
-        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/cape_germ.xml" attachpoint="shoulders"/>
       </props>
     </variant>
   </group>
