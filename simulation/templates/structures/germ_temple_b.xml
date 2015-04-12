@@ -25,6 +25,7 @@
   <BuildRestrictions>
     <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
+    <Category>Dock</Category>
   </BuildRestrictions>
   <Cost>
     <PopulationBonus>7</PopulationBonus>
@@ -34,7 +35,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.5" depth="24.5"/>
+    <Square width="12.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -46,6 +47,7 @@
     <SpecificName>Frijjōz fanją</SpecificName>
     <Tooltip>Rather than building large temples for their deities, the Germanics were mostly satisfied with praying near sacred groves and trees. The wooden statue in this grove is of the goddess Frijjō.\nImprove your farming rate.</Tooltip>
     <History>"The Germans, however, do not [...] confine the gods within walls, or [...] liken them to the form of any human countenance. They consecrate woods and groves [...]."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Icon>structures/temple_epic.png</Icon>
   </Identity>
   <Position>
     <Floating>true</Floating>
@@ -64,7 +66,7 @@
     </Technologies>
   </ProductionQueue>
   <Obstruction>
-    <Static width="22.5" depth="22.5"/>
+    <Static width="10.0" depth="22.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/germ/temple_frigg.xml</Actor>
