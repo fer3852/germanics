@@ -15,6 +15,7 @@
     <SpecificName>Salą</SpecificName>
     <GenericName>Mead Hall</GenericName>
 	<History>The Mead Hall was the place where warriors would celebrate their victories and entice each other to go to war.</History>
+    <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="18.0"/>
@@ -32,6 +33,9 @@
       germ/professional_hirelings
     </Technologies>
   </ProductionQueue>
+  <RallyPointRenderer>
+    <MarkerTemplate>special/cairn</MarkerTemplate>
+  </RallyPointRenderer>
   <VisualActor>
     <Actor>structures/germ/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
