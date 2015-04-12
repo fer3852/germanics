@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Stones">
+      <mesh>props/germ_haugr_stones.dae</mesh>
+      <textures>
+        <texture file="structural/celt_stonehenge.png" name="baseTex"/>
+        <texture file="structural/celt_stonehenge_norm.png" name="normTex"/>
+        <texture file="structural/celt_stonehenge_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

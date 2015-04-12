@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Burial Mound">
+      <mesh>structural/germ_haugr.dae</mesh>
+      <props>
+         <prop actor="props/structures/germ/haugr_stones.xml" attachpoint="root"/>
+         <prop actor="props/structures/decals/germ_haugr.xml" attachpoint="root"/>
+      </props>
+      <textures>
+         <texture file="structural/germ_haugr.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

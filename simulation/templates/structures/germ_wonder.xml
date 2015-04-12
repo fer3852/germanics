@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint replace="">
-    <Circle radius="30.0"/>
+    <Circle radius="25.0"/>
     <Height>10.0</Height>
   </Footprint>
   <Identity>
-    <Civ>brit</Civ>
-    <SpecificName>Stonehenge</SpecificName>
-    <History>Stonehenge is a monumental structure built by pre-historic peoples from Britain from approximately 2500 BC to 2000 BC. Evidence suggests that the structure and the surrounding site served as a place of religious significance, time-keeping, and other societal functions, like burial.</History>
+    <Civ>germ</Civ>
+    <SpecificName>Haugaz</SpecificName>
+    <GenericName>Burial Mound</GenericName>
+    <History>A great burial mound is the perfect way to honour a fallen chieftain. The local connection with such an important figure from the past will certainly improve your claim to the land.</History>
+    <Tooltip>A great burial mound is the perfect way to honour a fallen chieftain. The local connection with such an important figure from the past will certainly improve your claim to the land.\nBring glory to your civilization and add large tracts of land to your empire.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="30.0" depth="30.0"/>
+    <Static width="40.0" depth="40.0"/>
   </Obstruction>
   <VisualActor>
     <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
-    <Actor>structures/celts/stone_monument_new.xml</Actor>
+    <Actor>structures/germ/germ_haugr.xml</Actor>
   </VisualActor>
 </Entity>
