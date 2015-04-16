@@ -1,0 +1,8 @@
+{
+	"genericName": "Wood",
+	"autoResearch": true,
+	"description": "The Germanics were expert woodworkers.",
+	"requirements": {"civ": "germ"},
+	"modifications": [{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.1}],
+	"affects": ["Structure"]
+}

@@ -41,14 +41,9 @@
     </variant>
   </group>
   <group><!--capes-->
-    <variant frequency="1" name="Cape1">
+    <variant frequency="3" name="Cape3">
       <props>
-        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Cape2">
-      <props>
-        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/cape_germ.xml" attachpoint="shoulders"/>
       </props>
     </variant>
     <variant frequency="1" name="NoCape">

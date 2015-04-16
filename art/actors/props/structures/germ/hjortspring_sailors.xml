@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="celt fisherman body">
+      <animations/>
+      <mesh>props/germ_hjortspring_men.dae</mesh>
+      <!--<textures><texture file="skeletal/celt_healer_1.dds" name="baseTex"/></textures>-->
+      <props>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head1"/>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head2"/>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head3"/>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head4"/>
+      </props>
+    </variant>
+  </group>
+  <group><!--clothes-->
+    <variant frequency="1" name="Clothes-1">
+      <textures><texture file="skeletal/celt_isw_b_01.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Clothes-2">
+      <textures><texture file="skeletal/celt_isw_b_02.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Clothes-3">
+      <textures><texture file="skeletal/celt_isw_b_03.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Clothes-4">
+      <textures><texture file="skeletal/celt_isw_b_04.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="Clothes-5">
+      <textures><texture file="skeletal/celt_ijv_b_01.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+</actor>

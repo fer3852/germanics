@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
-    <Civ>celt</Civ>
-    <SpecificName>/Fishing Boat/</SpecificName>
+    <Civ>germ</Civ>
+    <SpecificName>Baitaz</SpecificName>
     <History>Need History</History>
     <Icon>units/celt_ship_fishing.png</Icon>
   </Identity>

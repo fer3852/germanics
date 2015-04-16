@@ -1,7 +1,7 @@
 {
 	"genericName": "Iron Spears",
 	"description": "Although hardened wooden points are deadly too, an iron tip is a huge improvement.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1000},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "spear.png",

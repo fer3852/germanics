@@ -25,9 +25,9 @@
   <BuildRestrictions>
     <Category>House</Category>
   </BuildRestrictions>
-  <Footprint>
-    <Square width="28.0" depth="28.0"/>
-    <Height>8.0</Height>
+  <Footprint replace="">
+    <Circle radius="3.5"/>
+    <Height>3.0</Height>
   </Footprint>
   <Identity>
     <Civ>germ</Civ>
@@ -44,7 +44,7 @@
     <Max>50</Max>
   </Health>
   <Obstruction>
-    <Static width="25.0" depth="25.0"/>
+    <Static width="6.0" depth="6.0"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>1</BatchTimeModifier>
@@ -54,6 +54,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/germ/bonfire.xml</Actor>
+    <!--<Actor>structures/germ/bonfire.xml</Actor>-->
+    <Actor>props/special/eyecandy/campfire.xml</Actor>
   </VisualActor>
 </Entity>

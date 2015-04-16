@@ -2,13 +2,15 @@
 	"Code": "germ",
 	"Culture": "germ",
 	"Name": "Germanics",
-	"Emblem": "session/portraits/emblems/emblem_celts.png",
+	"Emblem": "session/portraits/emblems/emblem_germ.png",
 	"History": "The Germanics were a people originally from Northern Europe. In the centuries before 0CE, the changing climate and overpopulation forced them south into Celtic lands. There, they met the Romans as both civilisations tried to subdue the Gauls. After a series of bloody conflicts, culminating in the infamous Battle of Teutoburg Forest, both sides would eventually settle on the Rhine as border.",
 	"Music":[
-			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
-			{"File":"Celtic_Pride.ogg", "Type":"peace"},
 			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
-			{"File":"Water's_Edge.ogg", "Type":"peace"}
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtica.ogg", "Type":"peace"}
 		],
 	"Factions":
 	[
@@ -60,6 +62,11 @@
 			"Name": "Skraiwungōniz Kwenǭniz",
 			"History": "Women give moral support to their warring husbands. ",
 			"Description": "Women increase attack rates of soldiers near them slightly. " 
+		},
+		{
+			"Name": "Hultą",
+			"History": "The Germanic peoples were expert woodworkers.",
+			"Description": "Increased wood gathering rate." 
 		},
 		{
 			"Name": "Aizō Kunjas",

@@ -9,6 +9,13 @@
     <History>"Silver and gold the gods have refused to them, whether in kindness or in anger I cannot say. I cannot, however, affirm that no vein of German soil produces gold or silver, for who has ever made a search?"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Tooltip>With the constant warring of the Germanic tribes, they often used well-hidden underground storerooms to protect their valuables and food from hostile raids.\nDropsite for wood, stone, and metal resources. Research gathering improvements for these resources.</Tooltip>
   </Identity>
+  <Footprint replace="">
+    <Square width="10.0" depth="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/germ/storehouse.xml</Actor>
   </VisualActor>
