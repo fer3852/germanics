@@ -21,7 +21,7 @@
     <SpecificName>Marhōz-hūsą</SpecificName>
     <History>"Their horses are remarkable neither for beauty nor fleetness. [...] From  riding and exercising of horses, their children borrow their pastimes, [...] the young men find matter for emulating one another [...]."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Tooltip>Although the average Germanic army consisted mostly of infantry, some tribes became particularly famous as horsemen. The Batavi for example, who in 43 AD played a decisive role in the Roman subjugation of the Celtic Cantiaci.\nResearch improvements for your cavalry.</Tooltip>
-    <Icon>technologies/horseshoe_bronze.png</Icon>
+    <Icon>structures/pers_stable.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="20.0"/>
