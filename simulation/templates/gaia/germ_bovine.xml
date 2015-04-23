@@ -5,7 +5,7 @@
     <GenericName>Cow</GenericName>
     <SpecificName>Kūz</SpecificName>
     <Icon>gaia/fauna_muskox.png</Icon>
-    <!--<RequiredTechnology>germ/unlock_germ_cows</RequiredTechnology>-->
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Cost>
     <BuildTime>60</BuildTime>
@@ -16,7 +16,7 @@
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>
-    <Type>food.milk</Type>
+    <Type>food.meat</Type>
     <MaxGatherers>1</MaxGatherers>
   </ResourceSupply>
   <VisualActor>
