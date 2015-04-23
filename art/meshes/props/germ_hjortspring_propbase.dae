@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.74.0 commit date:2015-03-31, commit time:13:39, hash:000dfc0</authoring_tool>
     </contributor>
-    <created>2015-04-12T14:59:41</created>
-    <modified>2015-04-12T14:59:41</modified>
+    <created>2015-04-13T14:13:59</created>
+    <modified>2015-04-13T14:13:59</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -63,6 +63,9 @@
       <node id="Props" name="Props" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane-mesh"/>
+        <node id="prop_captain" name="prop_captain" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 -7.35 0 0 1 0.24 0 0 0 1</matrix>
+        </node>
         <node id="prop_shield1" name="prop_shield1" type="NODE">
           <matrix sid="transform">-4.37114e-8 -1 2e-7 2.529887 1 -4.37114e-8 3.12908e-16 2.2117e-7 8.42937e-15 2e-7 1 0.9519743 0 0 0 1</matrix>
         </node>
