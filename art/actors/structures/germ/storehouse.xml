@@ -9,7 +9,7 @@
       </textures>
       <props>
         <prop actor="props/structures/germ/germ_storehouse_props.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/germ_dirt_storehouse.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
