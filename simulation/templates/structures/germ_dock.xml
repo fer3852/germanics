@@ -10,7 +10,8 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Habnō</SpecificName>
-    <History>The Germanics were able seafarers. Centuries before their Viking descendants scourged the coasts of Europe, the Romans complained about Frisian and Saxon raids on the Empire.</History>
+    <History>"Next occur the communities of the Suiones, situated in the ocean itself; and besides their strength in men and arms, very powerful at sea."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>The Germanics were able seafarers. Centuries before their Viking descendants scourged the coasts of Europe, the Romans complained about Frisian and Saxon raids on the Empire.\nBuild upon a shoreline to construct naval vessels and to open sea trade. Research naval improvements.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="22.0"/>

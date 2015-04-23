@@ -8,7 +8,13 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>40</Max>
+    <Max>20</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry Dog</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
     <Max>1600</Max>
@@ -18,12 +24,24 @@
     <SpecificName>Longboat</SpecificName>
     <Tooltip>Classes: Medium Warship Ranged
 Transport many soldiers across the sea.</Tooltip>
-    <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
+    <History>"The form of their vessels varies thus far from ours, that they have prows at each end, so as to be always ready to row to shore without turning nor are they moved by sails"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Icon>units/viking_longboat.png</Icon>
   </Identity>
   <Obstruction>
-    <Unit radius="6.0"/>
+    <Unit radius="16.0"/>
   </Obstruction>
+  <ResourceGatherer>
+    <MaxDistance>12.0</MaxDistance>
+    <Capacities>
+      <food>75</food>
+      <wood>75</wood>
+      <stone>50</stone>
+      <metal>50</metal>
+    </Capacities>
+  </ResourceGatherer>
+  <Trader>
+    <GainMultiplier>1.0</GainMultiplier>
+  </Trader>
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>
   </UnitMotion>

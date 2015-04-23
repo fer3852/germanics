@@ -14,8 +14,9 @@
     <Civ>germ</Civ>
     <SpecificName>Salą</SpecificName>
     <GenericName>Mead Hall</GenericName>
-	<History>The Mead Hall was the place where warriors would celebrate their victories and entice each other to go to war.</History>
-    <Icon>structures/pers_barracks.png</Icon>
+	<History>"Then they go [...] to their festal meetings. To pass an entire day and night in drinking disgraces no one."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+	<Tooltip>The Mead Hall was the place where warriors would celebrate their victories and entice each other to go to war.\nTrain citizen-soldiers. Research training improvements. Garrison: 10.</Tooltip>
+    <!--<Icon>structures/pers_barracks.png</Icon>-->
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="18.0"/>
