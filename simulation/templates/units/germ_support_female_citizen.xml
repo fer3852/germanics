@@ -6,14 +6,6 @@
       structures/germ_temple_b
     </Entities>
   </Builder>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      germ/germ_screeching_women
-      germ/germ_warring_women
-      germ/germ_shieldmaiden
-    </Technologies>
-  </ProductionQueue>
   <Attack>
     <Melee>
       <Hack>7</Hack>

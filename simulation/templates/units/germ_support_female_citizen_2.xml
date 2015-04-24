@@ -14,12 +14,12 @@
     </fight>
   </Auras>
   <Identity>
-    <SpecificName>Frawjǭ2</SpecificName>
+    <SpecificName>Frawjǭ</SpecificName>
    <Classes datatype="tokens">-fem1 fem2</Classes>
   </Identity>
   <Promotion>
     <RequiredXp>99999</RequiredXp>
-    <Entity>units/germ_support_female_citizen_3</Entity>
+    <Entity>units/germ_support_female_shieldmaiden</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/germ/female_citizen.xml</Actor>

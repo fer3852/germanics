@@ -15,7 +15,7 @@
     <GenericName>Shieldmaiden</GenericName>
     <History>Many Germanic sagas feature warrior women. Some famous examples are Hervor, who was killed in the 4th century defending a Gothic fortress from the Huns, and Brunhild from the Nibelungenlied.</History>
     <Tooltip>Many Germanic sagas feature warrior women. Some famous examples are Hervor, who was killed in the 4th century defending a Gothic fortress from the Huns, and Brunhild from the Nibelungenlied.</Tooltip>
-    <Classes datatype="tokens">Female Champion Infantry</Classes>
+    <Classes datatype="tokens">Female Champion Infantry Shieldmaiden</Classes>
     <Icon>units/germ_female_shieldmaiden.png</Icon>
 	<SelectionGroupName>units/germ_support_female_citizen</SelectionGroupName>
   </Identity>
