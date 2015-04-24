@@ -9,12 +9,6 @@
   </Footprint>
   <GarrisonHolder>
     <Max>20</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog</List>
-    <BuffHeal>1</BuffHeal>
-    <LoadingRange>10</LoadingRange>
-    <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
     <Max>1600</Max>
@@ -30,7 +24,7 @@ Transport many soldiers across the sea.</Tooltip>
   <Obstruction>
     <Unit radius="16.0"/>
   </Obstruction>
-  <ResourceGatherer>
+  <!--<ResourceGatherer>
     <MaxDistance>12.0</MaxDistance>
     <Capacities>
       <food>75</food>
@@ -41,7 +35,7 @@ Transport many soldiers across the sea.</Tooltip>
   </ResourceGatherer>
   <Trader>
     <GainMultiplier>1.0</GainMultiplier>
-  </Trader>
+  </Trader>-->
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>
   </UnitMotion>
