@@ -10,7 +10,7 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Hūsą</SpecificName>
-    <History>The Germanic peoples lived in longhouses together with their cattle.</History>
+    <History>"Amongst the same cattle they promiscuously live, upon the same ground they without distinction lie"\nTacitus, De origine et Situ Germanorum, 98 CE.</History>
     <Tooltip>The Germanics used longhouses, where they lived together with their extended family and cattle.\nIncrease the population limit and recruit women and cattle.</Tooltip>
   </Identity>
   <ProductionQueue>
@@ -19,6 +19,11 @@
       units/{civ}_support_female_citizen_house
       gaia/germ_bovine
     </Entities>
+    <Technologies datatype="tokens">
+      germ/germ_screeching_women
+      germ/germ_warring_women
+      germ/germ_shieldmaiden
+    </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>
     <Radius>16</Radius>
