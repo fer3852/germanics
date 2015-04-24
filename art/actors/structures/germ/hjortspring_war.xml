@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="ship mesh a">
+      <mesh>structural/germ_hjortspring.dae</mesh>
+      <animations>
+        <animation file="mechanical/germ_hjortspring_oars.dae" name="Walk" speed="6"/>
+        <animation file="mechanical/germ_hjortspring_oars.dae" name="Run" speed="10"/>
+      </animations>
+      <props>
+        <prop actor="props/structures/germ/hjortspring_sailors.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/hjortspring_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/hjortspring_shields.xml" attachpoint="root"/>
+      </props>
+      <textures><texture file="structural/celt_ship.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>
