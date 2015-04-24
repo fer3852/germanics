@@ -11,7 +11,7 @@
       </animations>
       <props>
         <prop actor="props/structures/germ/hjortspring_sailors.xml" attachpoint="root"/>
-        <prop actor="props/structures/germ/hjortspring_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/hjortspring_goods.xml" attachpoint="root"/>
       </props>
       <textures><texture file="structural/celt_ship.png" name="baseTex"/></textures>
     </variant>

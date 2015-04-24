@@ -7,7 +7,8 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Handlārijaz </SpecificName>
-    <History>The mostly agrarian society, and the tendency to conquer rather than trade, made the latter relatively small-scale in Germania. Goods were bartered rather than sold for money. The only exception to this were the Roman borders, where the Germanic tribes quickly learned of the Roman love for gold.\nTrade resources between your own markets and those of your allies. Germanic traders start out slightly less efficient than those of other tribes.</History>
+    <Tooltip>The mostly agrarian society, and the tendency to conquer rather than trade, made the latter relatively small-scale in Germania. Goods were bartered rather than sold for money. The only exception to this were the Roman borders, where the Germanic tribes quickly learned of the Roman love for gold.\nTrade resources between your own markets and those of your allies.</Tooltip>
+    <History>"The money which they like is the old and long known, that indented,2 or that impressed with a chariot and two horses. Silver too is what they seek more than gold, from no fondness or preference, but because small pieces are more ready in purchasing things cheap and common."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
     <Icon>units/celt_support_trader.png</Icon>
   </Identity>
   <VisualActor>

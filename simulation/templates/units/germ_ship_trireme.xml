@@ -15,33 +15,25 @@
   </Health>
   <Identity>
     <Civ>germ</Civ>
-    <SpecificName>Longboat</SpecificName>
+    <SpecificName>Skipą</SpecificName>
+    <GenericName>Ship (war)</GenericName>
     <Tooltip>Classes: Medium Warship Ranged
 Transport many soldiers across the sea.</Tooltip>
     <History>"The form of their vessels varies thus far from ours, that they have prows at each end, so as to be always ready to row to shore without turning nor are they moved by sails"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
-    <Icon>units/viking_longboat.png</Icon>
+    <Icon>units/germ_hjortspring_war.png</Icon>
   </Identity>
   <Obstruction>
     <Unit radius="16.0"/>
   </Obstruction>
-  <!--<ResourceGatherer>
-    <MaxDistance>12.0</MaxDistance>
-    <Capacities>
-      <food>75</food>
-      <wood>75</wood>
-      <stone>50</stone>
-      <metal>50</metal>
-    </Capacities>
-  </ResourceGatherer>
-  <Trader>
-    <GainMultiplier>1.0</GainMultiplier>
-  </Trader>-->
+  <Pack>
+    <Entity>units/germ_ship_merchant</Entity>
+    <Time>10000</Time>
+    <State>packed</State>
+  </Pack>
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>structures/germ/hjortspring.xml</Actor>
-    <!--<Actor>structures/viking/longboat.xml</Actor>-->
-    <!--<Actor>structures/celts/warship.xml</Actor>-->
+    <Actor>structures/germ/hjortspring_war.xml</Actor>
   </VisualActor>
 </Entity>

@@ -10,8 +10,8 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Hūsą</SpecificName>
-    <History>"Amongst the same cattle they promiscuously live, upon the same ground they without distinction lie"\nTacitus, De origine et Situ Germanorum, 98 CE.</History>
-    <Tooltip>The Germanics used longhouses, where they lived together with their extended family and cattle.\nIncrease the population limit and recruit women and cattle.</Tooltip>
+    <History>"That none of the several people in Germany live together in cities, is abundantly known; nay, that amongst them none of their dwellings are suffered to be contiguous. They inhabit apart and distinct, just as a fountain, or a field, or a wood happened to invite them to settle."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>The Germanics lived in longhouses, together with their extended family and cattle.\nIncrease the population limit and recruit women and cattle.</Tooltip>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>

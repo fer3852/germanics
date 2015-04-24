@@ -13,7 +13,8 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Hallō</SpecificName>
-    <History>Compared to their Celtic and Roman neighbours, the Germanics tended to raid and conquer instead of trade. Only near the Roman border did they use coins, and even there they preferred a simple barter system.</History>
+    <History>Germanics tended to raid and conquer instead of trade. Only near the Roman border did the Germanics use coins, and even there they preferred a simple barter system.\nCreate trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</History>
+    <History>"The Germans however adjoining to our frontiers value gold and silver for the purposes of commerce, and are wont to distinguish and prefer certain of our coins. They who live more remote are more primitive and simple in their dealings, and exchange one commodity for another."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="23.0"/>
