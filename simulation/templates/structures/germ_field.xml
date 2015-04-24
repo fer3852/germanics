@@ -3,6 +3,7 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Akraz</SpecificName>
-    <History>A farmer's field. The Germanics mostly grew a number of grain species, complementing the harvest with wild fruits and vegetables.</History>
+    <History>"For their drink, they draw a liquor from barley or other grain; and ferment the same, so as to make it resemble wine."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>The Germanics mostly grew a number of grain species, complementing the harvest with wild fruits and vegetables.\nHarvest grain for food. Max gatherers: 5.</Tooltip>
   </Identity>
 </Entity>

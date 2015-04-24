@@ -7,7 +7,8 @@
 	<Identity>
 		<Civ>germ</Civ>
 		<SpecificName>Fermō</SpecificName>
-		<History>Germanic farming concentrated on grain and cattle.</History>
+		<History>"In producing of grain and the other fruits of the earth, they labour with more assiduity and patience than is suitable to the usual laziness of Germans."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+                <Tooltip>Germanic farming concentrated on grain and cattle.\nDropsite for the food resource. Research food gathering improvements.</Tooltip>
 	</Identity>
 	<Obstruction>
 		<Static width="15" depth="15"/>
