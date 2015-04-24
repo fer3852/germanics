@@ -4,6 +4,8 @@
     <Civ>gaia</Civ>
     <GenericName>Cow</GenericName>
     <SpecificName>Kūz</SpecificName>
+    <History>"Their food is very simple; wild fruit, fresh venison, or coagulated milk."</History>
+    <Tooltip>The Germanics made a kind of soft cheese from their cow's milk.\nMilk your cows for a quick supply of food.</Tooltip>
     <Icon>gaia/fauna_muskox.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -21,5 +23,6 @@
   </ResourceSupply>
   <VisualActor>
     <Actor>fauna/germ_bovine.xml</Actor>
+    <!--<Actor>fauna/boar.xml</Actor>-->
   </VisualActor>
 </Entity>
