@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
-  <Cost>
-    <Resources>
-      <wood>75</wood>
-      <metal>150</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>germ</Civ>
-    <GenericName>Noble Swordsmen</GenericName>
-    <SpecificName>Aþalai</SpecificName>
-    <History>"A few only have corslets, and just one or two here and there a metal or leather helmet."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
-    <Tooltip>Swords and armour were rare mong the Germanic tribes, not in the least because of a relative lack of iron. As a result, only noblemen could afford these weapons.</Tooltip>
+    <GenericName>Hundredmen</GenericName>
+    <SpecificName>Hundaradmanniz</SpecificName>
+    <History>"The number to be sent is also ascertained, out of every village an hundred, and by this very name they continue to be called at home, those of the hundred band: thus what was at first no more than a number, becomes thenceforth a title and distinction of honour."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Hand-picked from the entire population, hundredmen were the pinnacle of the Germanic infantry.</Tooltip>
     <Icon>units/germ_champion_infantry.png</Icon>
   </Identity>
   <UnitMotion>

@@ -2,23 +2,23 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>germ</Civ>
-    <SelectionGroupName>units/germ_cavalry_spearman_b</SelectionGroupName>
-    <!--<SpecificName>Rīdandz Wrakjô</SpecificName>-->
-    <SpecificName>Ridarijaz</SpecificName>
-    <GenericName>Germanic Cavalry</GenericName>
-    <History>"[Their horses aren't] taught the various evolutions practised with us. The cavalry either bear down straight forward, or wheel once to the right, in so compact a body that none is left behind the rest."\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
-    <Tooltip>Like a sword, a horse was quite expenive and as a result cavalry was relatively rare. Nevertheless, the Germanic horsemanship had a high level as evidenced by the Romans who used Germanic soldiers in many of their elite cavalry forces.</Tooltip>
-    <Icon>units/germ_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+	<SelectionGroupName>units/germ_champion_cavalry_spearman</SelectionGroupName>
+    <SpecificName>Batawjōz Ridarijaz</SpecificName>
+    <GenericName>Batavian Cavalry</GenericName>
+    <History>"They also had at home a select body of cavalry which excelled in swimming; keeping their arms and horses they crossed the Rhine without breaking their formation."\nTacitus, Historiae, 105 CE.</History>
+    <Tooltip>The Batavians were known to be able to pass water on horseback, thereby being able to attack unsuspecting enemies. The Romans used this in the Battle of the Medway in Britannia, when they sent a detachment of Batavians towards a Celtic island fortress. The Celts, feeling safe on their island, hadn't posted any guards and were easily defeated.\nDue to their strict training, Batavian Cavalry can swim deeper than other land units can.</Tooltip>
+    <Icon>units/germ_champion_cavalry_spearman.png</Icon>
+    <RequiredTechnology>germ/training_batavian_cavalry</RequiredTechnology>
   </Identity>
+  <Position>
+    <Floating>false</Floating>
+  </Position>
   <Promotion>
     <Entity>units/germ_cavalry_spearman_a</Entity>
   </Promotion>
   <UnitMotion>
-    <WalkSpeed>17.5</WalkSpeed>
-    <Run>
-      <Speed>28.0</Speed>
-    </Run>
+    <!--<PassabilityClass>default ship</PassabilityClass>-->
+    <PassabilityClass>coastal</PassabilityClass>
   </UnitMotion>
   <VisualActor>
     <Actor>units/germ/cavalry_spearman_b.xml</Actor>

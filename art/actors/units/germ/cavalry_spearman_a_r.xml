@@ -17,7 +17,7 @@
         <prop actor="props/units/heads/head_germ.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-        <prop actor="props/units/shields/celt_round_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/germ_batavian.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
