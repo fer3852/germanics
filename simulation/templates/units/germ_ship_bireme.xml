@@ -1,38 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/viking_longboat">
-  <Cost>
-    <BuildTime>40</BuildTime>
-  </Cost>
+<Entity parent="template_unit_mechanical_ship_bireme">
   <Footprint>
     <Square width="12.0" depth="36.0"/>
-    <Height>8.0</Height>
+    <Height>3.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>20</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max>1600</Max>
-  </Health>
   <Identity>
     <Civ>germ</Civ>
-    <SpecificName>Skipą</SpecificName>
-    <GenericName>Ship (war)</GenericName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
+    <SpecificName>Gunþskipą</SpecificName>
     <History>"The form of their vessels varies thus far from ours, that they have prows at each end, so as to be always ready to row to shore without turning nor are they moved by sails"\nTacitus, De Origine et situ Germanorum, 98 CE.</History>
+    <Tooltip>Boats of the Hjortspring type were used since the stone age, and although not equipped with a sail, could carry some 20 men at a speed of 5 knots.</Tooltip>
     <Icon>units/germ_hjortspring_war.png</Icon>
   </Identity>
   <Obstruction>
     <Unit radius="16.0"/>
   </Obstruction>
-  <Pack>
-    <Entity>units/germ_ship_merchant</Entity>
-    <Time>10000</Time>
-    <State>packed</State>
-  </Pack>
-  <UnitMotion>
-    <WalkSpeed>14</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>structures/germ/hjortspring_war.xml</Actor>
   </VisualActor>
