@@ -2,7 +2,8 @@
 <Entity parent="special/player">
   <EntityLimits>
     <Limits>
-      <Shieldmaiden>3</Shieldmaiden>
+      <Nidpole>3</Nidpole>
+      <fire>1</fire>
     </Limits>
   </EntityLimits>
 </Entity>

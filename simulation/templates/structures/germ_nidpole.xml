@@ -43,11 +43,9 @@
     <History>"He first put on a pole the severed head of a horse that had been sacrificed to the Gods, [...] hoping that he would foil the first efforts of Erik by the horror of this wild spectacle."\nSaxo Grammaticus, Gesta Danorum, ca. 1208 CE.</History>
     <Tooltip>This stick is raised to bring your foes bad luck in battle. Whether the magic works or not, it surely raises the morale of nearby units.\n+50% Attack for units fighting near the pole.</Tooltip>
     <RequiredTechnology>germ/battle_magic</RequiredTechnology>
+    <Classes datatype="tokens">Nidpole</Classes>
     <Icon>technologies/cauldron.png</Icon>
   </Identity>
-  <Obstruction>
-    <Static width="10.0" depth="10.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/germ/germ_nidpole.xml</Actor>
   </VisualActor>
