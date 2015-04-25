@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.74.0 commit date:2015-03-31, commit time:13:39, hash:000dfc0</authoring_tool>
     </contributor>
-    <created>2015-04-13T13:56:24</created>
-    <modified>2015-04-13T13:56:24</modified>
+    <created>2015-04-25T16:57:40</created>
+    <modified>2015-04-25T16:57:40</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -122,13 +122,13 @@
           </bind_material>
         </instance_geometry>
         <node id="prop-shielda" name="prop-shielda" type="NODE">
-          <matrix sid="transform">-2.222222 -1.94273e-7 0 5.333333 1.94273e-7 -2.222222 0 -18.8 0 0 2.222222 4.444445 0 0 0 1</matrix>
+          <matrix sid="transform">-2.222222 -1.94273e-7 0 5.333333 1.94273e-7 -2.222222 0 -30.89162 0 0 2.222222 4.444445 0 0 0 1</matrix>
         </node>
         <node id="prop-shieldb" name="prop-shieldb" type="NODE">
-          <matrix sid="transform">-2.222222 -1.94273e-7 0 -8.21774e-7 1.94273e-7 -2.222222 0 -18.8 0 0 2.222222 4.444445 0 0 0 1</matrix>
+          <matrix sid="transform">-2.222222 -1.94273e-7 0 -1.35032e-6 1.94273e-7 -2.222222 0 -30.89162 0 0 2.222222 4.444445 0 0 0 1</matrix>
         </node>
         <node id="prop-shieldc" name="prop-shieldc" type="NODE">
-          <matrix sid="transform">-2.222222 -1.94273e-7 0 -5.333335 1.94273e-7 -2.222222 0 -18.8 0 0 2.222222 4.444445 0 0 0 1</matrix>
+          <matrix sid="transform">-2.222222 -1.94273e-7 0 -5.333335 1.94273e-7 -2.222222 0 -30.89162 0 0 2.222222 4.444445 0 0 0 1</matrix>
         </node>
         <node id="prop-projectile" name="prop-projectile" type="NODE">
           <matrix sid="transform">-9.71364e-8 2.222222 0 -6.31387e-7 -2.222222 -9.71364e-8 0 -14.44444 0 0 2.222222 2.222222 0 0 0 1</matrix>

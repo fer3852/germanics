@@ -10,6 +10,7 @@
         <prop actor="props/units/shields/celt_round_e.xml" attachpoint="shieldc"/>
         <prop actor="props/units/shields/celt_round_e.xml" attachpoint="shieldc"/>
         <prop actor="props/structures/germ/thing_wall.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
