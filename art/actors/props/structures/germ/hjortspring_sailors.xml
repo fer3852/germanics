@@ -7,7 +7,6 @@
     <variant frequency="100" name="celt fisherman body">
       <animations/>
       <mesh>props/germ_hjortspring_men.dae</mesh>
-      <!--<textures><texture file="skeletal/celt_healer_1.dds" name="baseTex"/></textures>-->
       <props>
         <prop actor="props/units/heads/head_germ.xml" attachpoint="head1"/>
         <prop actor="props/units/heads/head_germ.xml" attachpoint="head2"/>
@@ -33,5 +32,5 @@
       <textures><texture file="skeletal/celt_ijv_b_01.dds" name="baseTex"/></textures>
     </variant>
   </group>
-
+  <material>player_trans.xml</material>
 </actor>
