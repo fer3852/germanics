@@ -3,10 +3,11 @@
   <Identity>
     <Civ>germ</Civ>
     <SpecificName>Baitaz</SpecificName>
-    <History>Need History</History>
-    <Icon>units/celt_ship_fishing.png</Icon>
+    <History>"Two whales on his hook / did the mighty Hymir / Soon pull up / on a single cast."\nUnknown, Hymiskviða, 13th century CE.</History>
+    <Tooltip>The Germanics are thought to have used skinboats, similar to the Irish curragh, as small rowing vessels.\nFish the waters for Food. Garrison a support or infantry unit inside to boost fishing rate.</Tooltip>
+    <Icon>units/germ_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/fishing_boat.xml</Actor>
+    <Actor>structures/germ/skinboat.xml</Actor>
   </VisualActor>
 </Entity>

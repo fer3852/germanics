@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="ship mesh a">
+      <mesh>structural/germ_skinboat.dae</mesh>
+      <animations>
+        <animation file="mechanical/rowing_boat_move.dae" name="Walk" speed="10"/>
+        <animation file="mechanical/rowing_boat_move.dae" name="Run" speed="15"/>
+      </animations>
+      <props>
+        <prop actor="props/structures/germ/fisherman_body.xml" attachpoint="root"/>
+        <prop actor="props/structures/germ/skinboat_props.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/head_germ.xml" attachpoint="head"/>
+      </props>
+      <textures><texture file="structural/celt_merchant.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

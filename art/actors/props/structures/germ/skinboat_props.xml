@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="fishes">
+      <animations/>
+      <mesh>props/germ_skinboat_props.dae</mesh>
+      <textures><texture file="structural/hele_fishing_boat.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>
